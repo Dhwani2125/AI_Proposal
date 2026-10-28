@@ -1,0 +1,3 @@
+Implementation: build a local FastAPI app, classify discovery statements with a scikit-learn TF-IDF/logistic-regression pipeline, assemble grounded drafts from versioned JSON catalogues, provide an editable HTML preview and DOCX export, and test pricing, template preservation, validation and export. No database, external AI service, deployment or Git operations.
+
+Completed: local app, classifier, catalogue, protected draft assembly, editable preview, DOCX export, documentation and tests. Validation: 15 pytest tests passed; JavaScript syntax check passed; browser sample-note submission displayed the draft, missing-pricing indicator and production-deployment conflict. Word output was reopened with python-docx in tests. No Git operations performed.

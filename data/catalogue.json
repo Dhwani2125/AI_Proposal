@@ -1,0 +1,438 @@
+{
+  "packages": [
+    {
+      "id": "basic",
+      "name": "Basic",
+      "version": "2",
+      "sample": false,
+      "description": "A focused engagement for one clearly defined business need.",
+      "scope": [
+        "Recommended: Review one business problem and the available inputs",
+        "Recommended: Complete one agreed analysis or small improvement"
+      ],
+      "deliverables": [
+        "Recommended: Findings summary",
+        "Recommended: One agreed output and handover notes"
+      ],
+      "assumptions": [
+        "For review: the client supplies relevant information and an approver"
+      ],
+      "exclusions": [
+        "Recommended boundary: additional requirements and ongoing support need separate agreement"
+      ],
+      "exclusion_keywords": [],
+      "dependencies": [
+        "Confirm access to required information and availability of the client approver"
+      ],
+      "milestones": [
+        "Scope confirmation",
+        "Delivery review",
+        "Final handover"
+      ],
+      "pricing": null,
+      "recommended": true,
+      "recommended_timeline": "1-2 weeks"
+    },
+    {
+      "id": "standard",
+      "name": "Standard",
+      "version": "2",
+      "sample": false,
+      "description": "A complete delivery cycle for a defined project.",
+      "scope": [
+        "Recommended: Confirm requirements and acceptance criteria",
+        "Recommended: Develop and review one agreed solution",
+        "Recommended: Complete a review and handover"
+      ],
+      "deliverables": [
+        "Recommended: Requirements summary",
+        "Recommended: Agreed solution or analysis report",
+        "Recommended: Handover guide"
+      ],
+      "assumptions": [
+        "For review: the client supplies relevant information and an approver"
+      ],
+      "exclusions": [
+        "Recommended boundary: additional requirements and ongoing support need separate agreement"
+      ],
+      "exclusion_keywords": [],
+      "dependencies": [
+        "Confirm access to required information and availability of the client approver"
+      ],
+      "milestones": [
+        "Scope confirmation",
+        "Delivery review",
+        "Final handover"
+      ],
+      "pricing": null,
+      "recommended": true,
+      "recommended_timeline": "3-6 weeks"
+    },
+    {
+      "id": "premium",
+      "name": "Premium",
+      "version": "2",
+      "sample": false,
+      "description": "An extended engagement for a project with several related requirements.",
+      "scope": [
+        "Recommended: Assess related requirements and dependencies",
+        "Recommended: Deliver agreed work in reviewable phases",
+        "Recommended: Review quality and prepare handover"
+      ],
+      "deliverables": [
+        "Recommended: Delivery plan",
+        "Recommended: Phased project outputs",
+        "Recommended: Evaluation summary and handover guide"
+      ],
+      "assumptions": [
+        "For review: the client supplies relevant information and an approver"
+      ],
+      "exclusions": [
+        "Recommended boundary: additional requirements and ongoing support need separate agreement"
+      ],
+      "exclusion_keywords": [],
+      "dependencies": [
+        "Confirm access to required information and availability of the client approver"
+      ],
+      "milestones": [
+        "Scope confirmation",
+        "Delivery review",
+        "Final handover"
+      ],
+      "pricing": null,
+      "recommended": true,
+      "recommended_timeline": "6-10 weeks"
+    },
+    {
+      "id": "custom",
+      "name": "Custom",
+      "version": "2",
+      "sample": false,
+      "description": "A tailored engagement when the project needs a different scope.",
+      "scope": [
+        "Recommended: Run a scoping discussion",
+        "Recommended: Agree a tailored list of work and acceptance criteria"
+      ],
+      "deliverables": [
+        "Recommended: Tailored scope document",
+        "Recommended: Agreed delivery plan"
+      ],
+      "assumptions": [
+        "For review: the client supplies relevant information and an approver"
+      ],
+      "exclusions": [
+        "Recommended boundary: additional requirements and ongoing support need separate agreement"
+      ],
+      "exclusion_keywords": [],
+      "dependencies": [
+        "Confirm access to required information and availability of the client approver"
+      ],
+      "milestones": [
+        "Scope confirmation",
+        "Delivery review",
+        "Final handover"
+      ],
+      "pricing": null,
+      "recommended": true,
+      "recommended_timeline": "Set after the scope review"
+    },
+    {
+      "id": "consultation",
+      "name": "Consultation",
+      "version": "2",
+      "sample": false,
+      "description": "Expert assessment and practical recommendations for a business problem.",
+      "scope": [
+        "Recommended: Review the problem and relevant background",
+        "Recommended: Discuss options and recommend next steps"
+      ],
+      "deliverables": [
+        "Recommended: Assessment summary",
+        "Recommended: Recommendations and next-step roadmap"
+      ],
+      "assumptions": [
+        "For review: the client supplies relevant information and an approver"
+      ],
+      "exclusions": [
+        "Recommended boundary: additional requirements and ongoing support need separate agreement"
+      ],
+      "exclusion_keywords": [],
+      "dependencies": [
+        "Confirm access to required information and availability of the client approver"
+      ],
+      "milestones": [
+        "Scope confirmation",
+        "Delivery review",
+        "Final handover"
+      ],
+      "pricing": null,
+      "recommended": true,
+      "recommended_timeline": "3-5 working days"
+    },
+    {
+      "id": "analysis",
+      "name": "Sample — Data analysis",
+      "version": "1",
+      "sample": true,
+      "scope": [
+        "Review one client-supplied dataset",
+        "Perform exploratory data analysis"
+      ],
+      "deliverables": [
+        "Exploratory analysis report",
+        "Documented findings and data quality observations"
+      ],
+      "assumptions": [
+        "The client is permitted to share the supplied data"
+      ],
+      "exclusions": [
+        "Production deployment",
+        "Live system integration"
+      ],
+      "exclusion_keywords": [
+        "deploy",
+        "production",
+        "integrat",
+        "live system"
+      ],
+      "dependencies": [
+        "Client provides the dataset and its field definitions"
+      ],
+      "milestones": [
+        "Data review",
+        "Analysis review",
+        "Report handover"
+      ],
+      "pricing": null
+    },
+    {
+      "id": "prototype",
+      "name": "Sample — ML prototype",
+      "version": "1",
+      "sample": true,
+      "scope": [
+        "Assess one client-supplied dataset",
+        "Train and evaluate a baseline machine-learning model"
+      ],
+      "deliverables": [
+        "Baseline model prototype",
+        "Evaluation report with limitations"
+      ],
+      "assumptions": [
+        "The client provides suitable labelled data and permission to use it"
+      ],
+      "exclusions": [
+        "Production deployment",
+        "Ongoing model monitoring",
+        "Guaranteed prediction accuracy"
+      ],
+      "exclusion_keywords": [
+        "deploy",
+        "production",
+        "monitor",
+        "guarantee"
+      ],
+      "dependencies": [
+        "Client supplies labelled data and confirms evaluation criteria"
+      ],
+      "milestones": [
+        "Data suitability review",
+        "Baseline evaluation",
+        "Prototype handover"
+      ],
+      "pricing": null
+    }
+  ],
+  "templates": [
+    {
+      "id": "standard-business-proposal",
+      "name": "Standard Business Proposal",
+      "purpose": "Services, deliverables, pricing and timelines",
+      "best_for": "General business clients",
+      "version": "1",
+      "approved": false,
+      "fixed_wording": "DRAFT — For internal review. Scope and unresolved items require confirmation before external use.",
+      "section_order": [
+        "project_summary",
+        "objectives",
+        "scope_items",
+        "deliverables",
+        "assumptions",
+        "exclusions",
+        "milestones",
+        "dependencies",
+        "client_questions",
+        "commercial_details",
+        "discovery_evidence",
+        "missing_information",
+        "conflicts"
+      ]
+    },
+    {
+      "id": "technical-project-proposal",
+      "name": "Technical Project Proposal",
+      "purpose": "Technical requirements, technology stack, integrations and implementation phases",
+      "best_for": "IT and software development projects",
+      "version": "1",
+      "approved": false,
+      "fixed_wording": "DRAFT — For internal review. Scope and unresolved items require confirmation before external use.",
+      "section_order": [
+        "project_summary",
+        "objectives",
+        "scope_items",
+        "deliverables",
+        "assumptions",
+        "exclusions",
+        "milestones",
+        "dependencies",
+        "client_questions",
+        "commercial_details",
+        "discovery_evidence",
+        "missing_information",
+        "conflicts"
+      ]
+    },
+    {
+      "id": "ai-automation-proposal",
+      "name": "AI & Automation Proposal",
+      "purpose": "AI solutions, automation workflows, expected outcomes, limitations and evaluation criteria",
+      "best_for": "AI development and automation projects",
+      "version": "1",
+      "approved": false,
+      "fixed_wording": "DRAFT — For internal review. Scope and unresolved items require confirmation before external use.",
+      "section_order": [
+        "project_summary",
+        "objectives",
+        "scope_items",
+        "deliverables",
+        "assumptions",
+        "exclusions",
+        "milestones",
+        "dependencies",
+        "client_questions",
+        "commercial_details",
+        "discovery_evidence",
+        "missing_information",
+        "conflicts"
+      ]
+    },
+    {
+      "id": "service-agreement-sow",
+      "name": "Service Agreement / SOW",
+      "purpose": "Scope, responsibilities, deliverables, exclusions and acceptance criteria",
+      "best_for": "Projects requiring clearly defined commitments",
+      "version": "1",
+      "approved": false,
+      "fixed_wording": "DRAFT — For internal review. Scope and unresolved items require confirmation before external use.",
+      "section_order": [
+        "project_summary",
+        "objectives",
+        "scope_items",
+        "deliverables",
+        "assumptions",
+        "exclusions",
+        "milestones",
+        "dependencies",
+        "client_questions",
+        "commercial_details",
+        "discovery_evidence",
+        "missing_information",
+        "conflicts"
+      ]
+    },
+    {
+      "id": "fixed-price-proposal",
+      "name": "Fixed-Price Proposal",
+      "purpose": "Defined scope, milestone-based payments and fixed proposed price",
+      "best_for": "Projects with clearly defined requirements",
+      "version": "1",
+      "approved": false,
+      "fixed_wording": "DRAFT — For internal review. Scope and unresolved items require confirmation before external use.",
+      "section_order": [
+        "project_summary",
+        "objectives",
+        "scope_items",
+        "deliverables",
+        "assumptions",
+        "exclusions",
+        "milestones",
+        "dependencies",
+        "client_questions",
+        "commercial_details",
+        "discovery_evidence",
+        "missing_information",
+        "conflicts"
+      ]
+    },
+    {
+      "id": "time-material-proposal",
+      "name": "Time & Material Proposal",
+      "purpose": "Hourly or daily rates, estimated effort, expenses and billing frequency",
+      "best_for": "Projects where requirements may evolve",
+      "version": "1",
+      "approved": false,
+      "fixed_wording": "DRAFT — For internal review. Scope and unresolved items require confirmation before external use.",
+      "section_order": [
+        "project_summary",
+        "objectives",
+        "scope_items",
+        "deliverables",
+        "assumptions",
+        "exclusions",
+        "milestones",
+        "dependencies",
+        "client_questions",
+        "commercial_details",
+        "discovery_evidence",
+        "missing_information",
+        "conflicts"
+      ]
+    },
+    {
+      "id": "consulting-proposal",
+      "name": "Consulting Proposal",
+      "purpose": "Client problem, assessment, recommendations and implementation roadmap",
+      "best_for": "Consulting and advisory services",
+      "version": "1",
+      "approved": false,
+      "fixed_wording": "DRAFT — For internal review. Scope and unresolved items require confirmation before external use.",
+      "section_order": [
+        "project_summary",
+        "objectives",
+        "scope_items",
+        "deliverables",
+        "assumptions",
+        "exclusions",
+        "milestones",
+        "dependencies",
+        "client_questions",
+        "commercial_details",
+        "discovery_evidence",
+        "missing_information",
+        "conflicts"
+      ]
+    },
+    {
+      "id": "neutral",
+      "name": "Neutral draft — company approval required",
+      "version": "1",
+      "approved": false,
+      "fixed_wording": "DRAFT — For internal review. Scope and unresolved items require confirmation before external use.",
+      "section_order": [
+        "project_summary",
+        "objectives",
+        "scope_items",
+        "deliverables",
+        "assumptions",
+        "exclusions",
+        "milestones",
+        "dependencies",
+        "client_questions",
+        "commercial_details",
+        "discovery_evidence",
+        "missing_information",
+        "conflicts"
+      ]
+    }
+  ]
+}

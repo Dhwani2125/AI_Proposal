@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Proposal drafting assistant</title><link rel="stylesheet" href="/static/style.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <header><div class="brand">P<span> / </span>Scope</div><span class="badge">LOCAL WORKSPACE</span></header>
+  <main>
+    <div class="intro"><p class="eyebrow">PROPOSAL & SCOPE OF WORK</p><h1>From discovery to a clear draft.</h1><p>Organize your notes around a service package. Review the gaps before sharing.</p></div>
+    <div class="workspace">
+      <section class="panel input-panel" aria-labelledby="input-title">
+        <h2 id="input-title">01 <span>Discovery details</span></h2>
+        <p class="hint">Sample catalogue · Illustrative ML classifier · No external AI service</p>
+        <form id="draft-form">
+          <label for="client">Client name <small>optional</small></label><input id="client" name="client_name" maxlength="150" placeholder="Client or organization">
+          <label for="package">Service package</label><select id="package" name="package_id" required></select>
+          <p id="package-description" class="hint"></p>
+          <label for="template">Proposal template</label><select id="template" name="template_id" required></select>
+          <div class="label-row"><label for="notes">Project brief / discovery notes</label><button id="sample" type="button" class="text-button">Use an example</button></div>
+          <textarea id="notes" name="notes" rows="9" minlength="10" maxlength="15000" required placeholder="Paste the client's goals, requirements, available data and open questions…"></textarea>
+          <p id="brief-guidance" class="hint">Recommended: 40-150 words covering the goal, work needed, expected outputs and available information. Minimum: 10 characters.</p>
+          <p id="timeline-guidance" class="hint"></p>
+          <div class="paired"><div><label for="timeline">Requested timeline <small>optional</small></label><input id="timeline" name="target_timeline" maxlength="200" placeholder="To be confirmed"></div><div><label for="approver">Client approver <small>optional</small></label><input id="approver" name="approver" maxlength="150" placeholder="To be confirmed"></div></div>
+          <p class="hint">Prices appear only when approved pricing is configured. You can prepare a draft while pricing is being confirmed.</p>
+          <button id="generate" class="primary" type="submit">Generate proposal draft <span aria-hidden="true">→</span></button>
+        </form>
+        <p id="status" role="status" aria-live="polite"></p>
+      </section>
+      <section class="panel preview-panel" aria-labelledby="preview-title">
+        <div class="preview-head"><h2 id="preview-title">02 <span>Draft preview</span></h2><span class="badge">DRAFT</span></div>
+        <div id="empty"><div class="paper-icon" aria-hidden="true">≡</div><h3>Your proposal starts here.</h3><p>Add discovery notes and choose a package.<br>Scope, milestones and open questions will appear here.</p></div>
+        <div id="result" hidden>
+          <div id="warnings" class="notice"></div>
+          <p id="source" class="hint"></p><p id="fixed" class="fixed"></p>
+          <p class="hint">Edit the understanding and objectives below. Package wording and open issues remain protected. Other changes can be recorded as reviewer amendments.</p>
+          <div id="sections"></div>
+          <label for="amendments">Reviewer amendments <small>unconfirmed; no commercial terms</small></label>
+          <textarea id="amendments" maxlength="10000" rows="4" placeholder="Record scope changes or review feedback for confirmation…"></textarea>
+          <p class="hint">Export includes all unresolved questions and source references. Human review is required before external use. This workspace does not save drafts.</p>
+          <button id="export" type="button" class="primary">Download draft (.docx)</button>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer>Grounded in your inputs. Commercial details require an approved source.</footer>
+</body>
+</html>
